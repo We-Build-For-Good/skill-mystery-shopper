@@ -29,19 +29,19 @@ Most AI product audits are useless because LLMs are trained to be polite and agr
 
 ### For Claude Code
 ```bash
-git clone https://github.com/webuildforgood/skill-undercover-employee.git ~/.claude/skills/undercover-employee
+git clone https://github.com/We-Build-For-Good/skill-undercover-employee.git ~/.claude/skills/undercover-employee
 ```
 
 ### For Cursor
 ```bash
 mkdir -p .cursor/skills
-git clone https://github.com/webuildforgood/skill-undercover-employee.git .cursor/skills/undercover-employee
+git clone https://github.com/We-Build-For-Good/skill-undercover-employee.git .cursor/skills/undercover-employee
 ```
 
 ### For Antigravity / Open Agent Skills
 ```bash
 mkdir -p .agents/skills
-git clone https://github.com/webuildforgood/skill-undercover-employee.git .agents/skills/undercover-employee
+git clone https://github.com/We-Build-For-Good/skill-undercover-employee.git .agents/skills/undercover-employee
 ```
 
 ---
