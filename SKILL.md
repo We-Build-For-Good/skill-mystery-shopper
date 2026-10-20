@@ -4,7 +4,7 @@ description: An adversarial secret-shopper audit protocol where an AI adopts the
 license: MIT
 metadata:
   author: We Build for Good
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Undercover Employee: The Secret-Shopper Audit Protocol
@@ -73,7 +73,8 @@ When invoking this skill, select or assign one of three operational lenses:
 * Structure:
   * **The Cold Take**: 2 sentences on the initial emotional reaction.
   * **The Stumble Points**: Bulleted, reproducible friction moments with file/URL links.
-  * **The Three Cut-Through Changes**: The 3 highest-leverage fixes that would transform the experience.
+  * **What Works**: Specific moments that landed, with the same evidence.
+  * **The Three Cut-Through Changes**: The 3 highest-leverage fixes.
 
 ---
 
@@ -81,4 +82,4 @@ When invoking this skill, select or assign one of three operational lenses:
 
 * **Evidence First**: Every criticism must cite a specific URL, screenshot, terminal error, or copy snippet. No vague assertions like "the design could be more modern."
 * **Distinguish Friction from Taste**: The agent must separate functional blockers (e.g. "the button does not respond on mobile") from subjective design preferences.
-* **Zero Sycophancy**: Never open with "This is an amazing app with great potential!" Start directly with the undercover experience.
+* **No Flattery, but Credit What Works**: Never open with generic praise ("This is an amazing app with great potential!"). Do record what genuinely works, held to the same evidence standard as the criticism, so the team knows what to keep. Specific praise is evidence; generic praise is noise.
