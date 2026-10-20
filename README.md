@@ -1,4 +1,4 @@
-# Undercover Employee: The Secret-Shopper Audit Protocol
+# Mystery Shopper: The Undercover Site Tester Protocol
 
 > **An open-source AI engineering protocol from [We Build for Good](https://webuildforgood.com)**  
 > *Cut through AI flattery. See your product through unvarnished eyes.*
@@ -7,7 +7,9 @@
 
 ## Overview
 
-`undercover-employee` is an adversarial audit protocol for AI assistants (Claude Code, Cursor, Antigravity, OpenAI Codex).
+*Renamed from `skill-undercover-employee` on 2026-10-20. "Undercover Employee" is now the name of the We Build for Good diary series; old links to this repo redirect here.*
+
+`mystery-shopper` is an adversarial audit protocol for AI assistants (Claude Code, Cursor, Antigravity, OpenAI Codex).
 
 It instructs an AI model to drop its default sycophantic persona and walk through a product, codebase, or onboarding flow as an undercover first-time user, skeptical buyer, or new junior engineer.
 
@@ -21,7 +23,7 @@ Most AI product audits are useless because LLMs are trained to be polite and agr
 * The documentation assumes tribal knowledge that newcomers do not possess.
 * The copy sounds defensive, confusing, or buzzword-heavy.
 
-`undercover-employee` gives your AI collaborator a mandate for radical candor grounded in user friction.
+`mystery-shopper` gives your AI collaborator a mandate for radical candor grounded in user friction.
 
 ---
 
@@ -29,19 +31,19 @@ Most AI product audits are useless because LLMs are trained to be polite and agr
 
 ### For Claude Code
 ```bash
-git clone https://github.com/We-Build-For-Good/skill-undercover-employee.git ~/.claude/skills/undercover-employee
+git clone https://github.com/We-Build-For-Good/skill-mystery-shopper.git ~/.claude/skills/mystery-shopper
 ```
 
 ### For Cursor
 ```bash
 mkdir -p .cursor/skills
-git clone https://github.com/We-Build-For-Good/skill-undercover-employee.git .cursor/skills/undercover-employee
+git clone https://github.com/We-Build-For-Good/skill-mystery-shopper.git .cursor/skills/mystery-shopper
 ```
 
 ### For Antigravity / Open Agent Skills
 ```bash
 mkdir -p .agents/skills
-git clone https://github.com/We-Build-For-Good/skill-undercover-employee.git .agents/skills/undercover-employee
+git clone https://github.com/We-Build-For-Good/skill-mystery-shopper.git .agents/skills/mystery-shopper
 ```
 
 ---
@@ -49,7 +51,7 @@ git clone https://github.com/We-Build-For-Good/skill-undercover-employee.git .ag
 ## How to Use It
 
 Invoke the skill by pointing it at a URL, a repository, or a staging branch:
-* *"Run an undercover-employee audit on our landing page as a skeptical first-time visitor."*
+* *"Run a mystery-shopper audit on our landing page as a skeptical first-time visitor."*
 * *"Act as an undercover junior developer trying to run our local setup script from scratch."*
 * *"Perform a secret-shopper review of our checkout and onboarding flow."*
 

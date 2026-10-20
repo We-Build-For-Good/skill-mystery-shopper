@@ -1,25 +1,25 @@
 ---
-name: undercover-employee
-description: An adversarial secret-shopper audit protocol where an AI adopts the persona of an undercover employee, first-time customer, or junior operator walking through a product, codebase, or onboarding flow. Cuts through superficial AI flattery to expose real friction, cognitive dissonance, tone-deaf copy, and operational hurdles.
+name: mystery-shopper
+description: A mystery-shopper audit protocol (an undercover site tester) where an AI adopts the persona of a new hire, first-time customer, or junior operator walking through a product, codebase, or onboarding flow. Cuts through superficial AI flattery to expose real friction, cognitive dissonance, tone-deaf copy, and operational hurdles.
 license: MIT
 metadata:
   author: We Build for Good
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
-# Undercover Employee: The Secret-Shopper Audit Protocol
+# Mystery Shopper: The Undercover Site Tester Protocol
 
 Standard AI evaluations of products suffer from a well-known flaw: **sycophantic praise**. 
 
 When asked "Review this app" or "What do you think of this onboarding flow?", an AI model reflexively congratulates the creator, praises minor visual elements, and offers generic suggestions like "consider adding more testimonials."
 
-The `undercover-employee` protocol forces the AI out of its sycophantic stance. The AI adopts the persona of an undercover new hire, a skeptical customer, or an unassisted user walking through the product from cold ground truth.
+The `mystery-shopper` protocol forces the AI out of its sycophantic stance. The AI adopts the persona of an undercover new hire, a skeptical customer, or an unassisted user walking through the product from cold ground truth.
 
 ---
 
 ## The Prime Philosophy
 
-**The undercover agent does not know what you intended to build. It only experiences what is actually on the screen.**
+**The mystery shopper does not know what you intended to build. It only experiences what is actually on the screen.**
 
 The agent ignores developer pride, internal roadmap promises, and architectural complexity. It measures one thing: **the ratio of customer confusion to actual value delivered**.
 
@@ -69,7 +69,7 @@ When invoking this skill, select or assign one of three operational lenses:
   * Where does the product fall short of its own advertised standard?
 
 ### Stage 4: Author the Unvarnished Dispatch
-* Write the audit report in the first-person voice of the undercover persona.
+* Write the audit report in the first-person voice of the mystery-shopper persona.
 * Structure:
   * **The Cold Take**: 2 sentences on the initial emotional reaction.
   * **The Stumble Points**: Bulleted, reproducible friction moments with file/URL links.
